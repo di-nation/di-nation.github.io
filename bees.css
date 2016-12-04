@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  background-color: #FFFFBC;
 }
 
 body {
@@ -15,9 +16,8 @@ h2 {
 }
 
 header {
-  background-color: white;
+  background-color: none;
   padding: 5px;
-  font-size: 12em;
   display: block;
   text-align: center;
 }
@@ -25,19 +25,18 @@ header {
 nav {
   float: left;
   width: 100%;
+  font-size: 2em;
   font-family: 'Oswald', sans-serif;
 }
 
 nav ul {
-  padding: ;
+  padding: 10px;
   float: left;
-  border-bottom: ;
   list-style-type: none;
 }
 
 nav li {
   float: left;
-  font-size: 25px;
 }
 
 nav li a {
@@ -45,9 +44,11 @@ nav li a {
   height: 25px;
   padding: 12px 18px 8px 18px;
   vertical-align: middle;
-
-  color: blue;
 }
+
+a {
+    color: black;
+  }
 
 section {
   width: 75%;
@@ -59,15 +60,25 @@ aside {
   width: 15%;
   text-align: center;
   display: inline-block;
-  padding: 10px;
-  height: 100%;
+  padding: 5px;
+  height: 200%;
+  line-height: 30px;
   float: right;
 }
 
 footer {
-  width: 100%;
-  font-size: 25px;
   text-align: center;
+  width: 100%;
+  padding: 40px 0 40px 0;
   clear: both;
   display: block;
+}
+.removealign {
+  text-align: left;
+}
+.main-text {
+  line-height: 30px;
+}
+.largeimage {
+  width: 100%;
 }
