@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #FFFFBC;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+header {
+  background-color: white;
+  padding: 5px;
+  font-size: 12em;
+  display: block;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+  padding: ;
+  float: left;
+  border-bottom: ;
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+  font-size: 25px;
+}
+
+nav li a {
+  display: block;
+  height: 25px;
+  padding: 12px 18px 8px 18px;
+  vertical-align: middle;
+
+  color: blue;
+}
+
+section {
+  width: 75%;
+  display: inline-block;
+  float: left;
+}
+
+aside {
+  width: 15%;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  height: 100%;
+  float: right;
+}
+
+footer {
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  clear: both;
+  display: block;
+}
